@@ -1,0 +1,26 @@
+header {
+  background-color: rgba(0 0 0 /95);
+  min-height: 80px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+header p {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+header p a {
+  all: unset;
+}
+header p:hover {
+  color: rgb(239, 221, 141);
+}
+nav {
+  /*Need to display vertical lines in between each nav*/
+  display: flex;
+  gap: 50px;
+  flex-basis: 60%;
+}

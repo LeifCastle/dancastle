@@ -1,5 +1,6 @@
-import { Link } from "gatsby";
 import React from "react";
+import { Link } from "gatsby";
+import "./styles/header.css";
 
 export default function Header() {
   return (
@@ -8,7 +9,9 @@ export default function Header() {
         <p className="dcLogo-text">DC</p>
       </div>
       <nav>
-        <Link to="/">Home</Link>
+        <p>
+          <Link to="/">Home</Link>
+        </p>
         <p>
           <Link to="/experience">Experience</Link>
         </p>
