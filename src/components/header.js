@@ -5,8 +5,8 @@ import "./styles/header.css";
 export default function Header() {
   return (
     <header>
-      <div className="dcLogo">
-        <p className="dcLogo-text">DC</p>
+      <div id="Logo">
+        <p id="logoText">DC</p>
       </div>
       <nav>
         <p>
@@ -15,9 +15,15 @@ export default function Header() {
         <p>
           <Link to="/experience">Experience</Link>
         </p>
-        <p>Portfolio</p>
-        <p>Contact</p>
-        <p>Personal</p>
+        <p>
+          <Link to="/portfolio">Portfolio</Link>
+        </p>
+        <p>
+          <Link to="/portfolio">Contact</Link>
+        </p>
+        <p>
+          <Link to="/portfolio">Personal</Link>
+        </p>
       </nav>
     </header>
   );

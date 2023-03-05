@@ -15,7 +15,7 @@ header p {
 header p a {
   all: unset;
 }
-header p:hover {
+nav p:hover {
   color: rgb(239, 221, 141);
 }
 nav {
@@ -23,4 +23,20 @@ nav {
   display: flex;
   gap: 50px;
   flex-basis: 60%;
+}
+#Logo {
+  margin-left: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+}
+#logoText {
+  font-size: 25px;
+  font-family: Georgia;
+  font-weight: 500;
 }

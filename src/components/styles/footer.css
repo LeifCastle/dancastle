@@ -1,0 +1,47 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0 0 0 /95);
+  height: 81.5px;
+  min-height: 80px;
+  color: white;
+  font-family: Tahoma;
+}
+
+#left-content {
+  display: flex;
+  padding-left: 10vw;
+  align-items: center;
+  gap: 20px;
+}
+
+#right-content {
+  display: flex;
+  padding-right: 10vw;
+  align-items: center;
+  gap: 15px;
+}
+
+#dcLogo {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 55px;
+}
+#dcLogo-text {
+  font-size: 25px;
+  font-family: Georgia;
+  font-weight: 500;
+}
+img {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+#Link {
+  padding: 0;
+}

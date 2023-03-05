@@ -1,0 +1,66 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  margin: 0;
+  color: #cacaca;
+  font-family: Tahoma;
+}
+main {
+  flex: 1;
+  background-color: #464646;
+}
+#main-elements {
+  display: flex;
+  gap: 5vw;
+  margin-inline: 5vw;
+  justify-content: center;
+}
+#main-text {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 60%;
+  margin-top: 30px;
+}
+#first {
+  margin-top: 0;
+  margin-right: 0;
+}
+#danCastle-pic {
+  border-radius: 5px;
+  margin-top: 30px;
+}
+hr {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #464646, rgb(239, 221, 141), #464646) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+  margin-inline: 13vw;
+  margin-block: 20px;
+}
+#secondary-elements h2 {
+  text-align: center;
+  color: rgb(239, 221, 141);
+  font-size: 24px;
+  font-weight: normal;
+}
+#deliverables {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 10vw;
+}
+#deliverables div li::marker {
+  color: rgb(132, 132, 132);
+}
+#deliverables div {
+  flex-basis: 30%;
+}
