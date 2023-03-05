@@ -25,7 +25,7 @@ export default function Home() {
               methodology and have led teams at numerous Fortune 500 and smaller
               start-up companies to produce highly usable products.
             </p>
-            <div class="two-grouped-elements">
+            <div className="two-grouped-elements">
               <p>
                 With an M.S. degree in Human Factors Engineering (HCI focus), I
                 have extensive experience in guiding teams to create a superb
@@ -55,7 +55,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <hr />
+        <hr id="break" />
         <section id="secondary-elements">
           <h2>Typical Deliverables</h2>
           <ul id="deliverables">

@@ -1,31 +1,38 @@
 header {
   background-color: rgba(0 0 0 /95);
-  min-height: 80px;
+  min-height: 81.5px;
   color: white;
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-}
-header p {
   text-transform: uppercase;
   font-weight: 500;
 }
-header p a {
+
+header a {
   all: unset;
+  padding: 10px;
 }
-nav p:hover {
+.navLink:hover,
+.userOnPage {
   color: rgb(239, 221, 141);
 }
 nav {
-  /*Need to display vertical lines in between each nav*/
   display: flex;
-  gap: 50px;
+  gap: 20px;
   flex-basis: 60%;
+  align-items: center;
+}
+.verticalLine {
+  width: 0px;
+  height: 25px;
+  margin: 0;
+  border-left: 1px solid white;
+  border-right: 0;
 }
 #Logo {
-  margin-left: 50px;
+  margin-left: 10vw;
   border-radius: 50%;
   border: 2px solid white;
   width: 60px;
